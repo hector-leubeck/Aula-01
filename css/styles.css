@@ -1,0 +1,171 @@
+/* 
+font-family: 'Fira Code', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  background-color: #151822;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+  color: #68b517;
+}
+
+.italic {
+  font-style: italic;
+  color: #68b517;
+}
+
+.navbar {
+  background-color: #242835;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Fira Code", monospace;
+  width: 100%;
+  color: #a6f750;
+  padding: 1rem 0;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.articles-container {
+  padding: 1.5rem 5rem;
+}
+
+.formation {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.course-title {
+  margin-top: 1rem;
+  font-size: 26px;
+}
+
+.certificate {
+  margin-top: 1rem;
+}
+
+.course-subtitle {
+  font-size: 18px;
+}
+
+.sidebar-container {
+  right: 1px;
+  padding: 1.5rem 1rem;
+  background: linear-gradient(
+      93.08deg,
+      rgba(166, 247, 80, 0.14) 19.31%,
+      rgba(61, 44, 255, 0) 75.52%
+    ),
+    rgb(24, 28, 35);
+}
+
+.navbar-title {
+  font-size: 24px;
+}
+
+.profile-picture {
+  height: 300px;
+  width: auto;
+}
+
+.picture-subtitle {
+  color: #a6f750;
+  font-size: 12px;
+  text-align: end;
+}
+
+.unfinished {
+  color: #36491f;
+}
+
+.finished {
+  color: #68b517;
+}
+
+.tech-title {
+  margin-bottom: 1rem;
+}
+.competences li {
+  padding: 0.3rem 0;
+}
+
+.tech-icon {
+  padding-right: 5px;
+}
+
+.lang-table {
+  border: 2px solid #68b517;
+  padding-bottom: 2px;
+  width: 500px;
+}
+
+th {
+  border-bottom: 3px solid #101420;
+  margin-bottom: 5px;
+}
+
+.left-cell {
+  background: linear-gradient(
+      -93.08deg,
+      rgba(166, 247, 80, 0.14) 19.31%,
+      rgba(61, 44, 255, 0) 75.52%
+    ),
+    rgb(24, 28, 35);
+  text-align: end;
+  width: 50%;
+  padding-right: 3px;
+}
+
+.right-cell {
+  background: linear-gradient(
+      93.08deg,
+      rgba(166, 247, 80, 0.14) 19.31%,
+      rgba(61, 44, 255, 0) 75.52%
+    ),
+    rgb(24, 28, 35);
+  vertical-align: middle;
+  padding-left: 3px;
+  border-left: 3px solid #101420;
+}
